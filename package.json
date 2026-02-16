@@ -1,0 +1,21 @@
+{
+  "name": "dashboard-bot",
+  "version": "1.0.0",
+  "description": "Discord temporary role bot with secure backend key/session redemption",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:api": "node src/server.js",
+    "start:bot": "node src/bot.js",
+    "lint": "node --check src/*.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "express": "^4.21.2"
+  }
+}
